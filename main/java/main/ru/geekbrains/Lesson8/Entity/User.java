@@ -9,13 +9,13 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    //@Column(name = "User_name")
+    @Column(name = "User_name")
     private String username;
 
-    //@Column(name = "password")
+    @Column(name = "password")
     private String password;
 
-    //@Column(name = "email")
+    @Column(name = "email")
     private String email;
 
     public User(String username, String password, String email) {
